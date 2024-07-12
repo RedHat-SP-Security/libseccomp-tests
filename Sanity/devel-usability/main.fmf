@@ -1,0 +1,13 @@
+summary: Basic devel usability test
+contact: Patrik Koncity <pkoncity@redhat.com>
+test: ./runtest.sh
+duration: 5m
+enabled: true
+require:
+- gcc
+- rpm
+- redhat-rpm-config
+- pkgconf-pkg-config
+- libseccomp-devel
+tag:
+- CI-Tier-1
