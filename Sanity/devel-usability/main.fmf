@@ -11,3 +11,4 @@ require:
 - libseccomp-devel
 tag:
 - CI-Tier-1
+- ImageMode
