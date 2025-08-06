@@ -4,11 +4,12 @@ test: ./runtest.sh
 duration: 5m
 enabled: true
 require:
-- gcc
-- rpm
-- redhat-rpm-config
-- pkgconf-pkg-config
-- libseccomp-devel
+  - gcc
+  - rpm
+  - redhat-rpm-config
+  - pkgconf-pkg-config
+  - libseccomp-devel
 tag:
-- CI-Tier-1
-- ImageMode
+  - CI-Tier-1
+  - ImageMode
+id: e31c2ad0-ed08-4e36-adb0-a759191f3a6a
