@@ -1,4 +1,8 @@
 summary: Basic devel usability test
+description: |
+    Verify that a C program can be compiled and linked against libseccomp-devel
+    using distribution-specific build flags, and that the resulting binary runs
+    successfully and retrieves the libseccomp version.
 contact: Patrik Koncity <pkoncity@redhat.com>
 test: ./runtest.sh
 duration: 5m
